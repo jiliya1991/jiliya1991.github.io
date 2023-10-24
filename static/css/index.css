@@ -109,9 +109,9 @@ body {
 }
 
 .results-carousel .item {
-  margin: 5px;
+  margin: 10px;
   overflow: hidden;
-  padding: 20px;
+  padding: 40px;
   font-size: 0;
 }
 
@@ -242,15 +242,15 @@ a:hover:after{
   width:50%;
 }
 .marquee-wrapper .marquee-block{
-  --total-marquee-items:5;
-  height: 320px;
+  --total-marquee-items:4;
+  height: 700px;
   width: calc(250px * (var(--total-marquee-items)));
   overflow: hidden;
   box-sizing: border-box;
   position: relative;
   margin: 20px auto;
   background:#f5f5f5;
-  padding: 30px 0;
+  padding: 30px 30px;
 }
 .marquee-inner{
   display: block;
@@ -270,7 +270,7 @@ a:hover:after{
 }
 .marquee-item{
   width: 230px;
-  height: 230px;
+  height: 660px;
   display: inline-block;
   margin: 0 10px;
   float: left;
@@ -280,7 +280,7 @@ a:hover:after{
 
 .marquee-item img{
   width: 230px;
-  height: 160px;
+  height: 610px;
 }
 
 @keyframes marqueeLeft{
